@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --open --hot",
     "api": "node ratingsAPI.js",
     "test": "jest",
     "test:update": "jest -u"
@@ -26,6 +26,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.4",
     "react-router-dom": "^4.3.1",
     "react-test-renderer": "^16.4.1",
     "styled-components": "^3.3.3"
