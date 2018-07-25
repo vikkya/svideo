@@ -3,10 +3,10 @@ import {render} from 'react-dom';
 import App from './src/App';
 
 const renderApp = () => {
-    render(<App />, document.getElementById('app'));
+    render(<App />, document.getElementById('app'))
 }
 
-renderApp();
+renderApp()
 
 if(module.hot){
     module.hot.accept('./src/App', () => {
